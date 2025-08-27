@@ -11,5 +11,5 @@ app.use(express.static(path.join(__dirname, "./src/public")))
 app.use("/", router)
 
 app.listen(3000, () => {
-    console.log("Servidor rodando na porta http://localhost:3000");
+    console.log("Servidor rodando na porta /");
 })
